@@ -1,0 +1,16 @@
+name: TAEcon
+author: TEAM-ALPHA
+main: net.teamalpha.taecon.TAEcon
+version: 0.1
+
+commands:
+  money:
+    aliases: [ eco, econ, wallet, tokens ]
+    description: Economy command
+
+permissions:
+  taecon.pay:
+    description: Lets you pay a player
+  taecon.admin:
+    description: Lets you use admin commands
+    default: op
